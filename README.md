@@ -82,7 +82,7 @@ secondDoc,4,4,Charter Group2,720 Prospect2,Framingham,MA,01701,2,
 
 ## How It Works
 
-1. **XML Parsing**: The program reads the XML files and uses an XML parser to extract the necessary information, including titles, customer details, and addresses.
+1. **XML Parsing**: The program reads the XML files and create from he is strucure the columns that gone a be in the csv
   
 2. **Data Structuring**: The converter dynamically determines the structure based on the input XML file, allowing it to adapt to various formats as long as they share a consistent layout.
   
