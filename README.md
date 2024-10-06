@@ -16,8 +16,8 @@ This project is a generic XML to CSV converter that transforms any XML files wit
 The input XML file can have any xml structure the code is generic:
 
 ```
-for example here is xml input and output csv
-
+## Example
+## Xml Input 
 ```
 <?xml version="1.0"?>
 <Root>
@@ -68,7 +68,7 @@ for example here is xml input and output csv
 </Root>
 ```
 
-## Output Example
+## Csv Output
 
 The output will be a CSV file structured as follows:
 
