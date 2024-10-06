@@ -13,9 +13,11 @@ This project is a generic XML to CSV converter that transforms any XML files wit
 
 ## Input Example
 
-The input XML file should have a structure similar to the following:
+The input XML file can have any xml structure the code is generic:
 
 ```
+for example here is xml input and output csv
+
 ```
 <?xml version="1.0"?>
 <Root>
