@@ -9,31 +9,6 @@ This .NET Core 8 console application converts a directory of XML files with iden
 * **Tag-based analysis:**  The converter analyzes XML tags to identify lists and nested objects for accurate data extraction.
 * **Error handling:** Basic error handling is implemented to ensure smooth execution and informative error messages.
 
-### Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. **Build the project:**
-   ```bash
-   cd your-repo-name
-   dotnet build
-   ```
-
-3. **Run the application:**
-   ```bash
-   dotnet run "<path_to_xml_directory>" "<output_csv_file_path>" 
-   ```
-
-   * Replace `<path_to_xml_directory>` with the absolute path to the directory containing your XML files.
-   * Replace `<output_csv_file_path>` with the desired path and filename for the output CSV file.
-
-**Example:**
-```bash
-dotnet run "C:\Users\JohnDoe\Documents\XMLFiles" "C:\Users\JohnDoe\Documents\output.csv"
-```
 
 ### Input/Output Example
 
