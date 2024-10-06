@@ -42,25 +42,62 @@ dotnet run "C:\Users\JohnDoe\Documents\XMLFiles" "C:\Users\JohnDoe\Documents\out
 ```xml
 <?xml version="1.0"?>
 <Root>
-  <Title>secondDoc</Title>
-  <customers>
-    <groupNumber>4</groupNumber>
-    <groupId>4</groupId>
-    <customer>
-      <name>Charter Group</name>
-      <address>
-        <addres>
-          <street>100 Main</street>
-          <city>Framingham</city>
-          <state>MA</state>
-          <zip>01701</zip>
-        </addres>
-      </address>
-      <id>
-        <value>1</value>
-      </id>
-    </customer>
-  </customers>
+	<Title>secondDoc</Title>
+	<customers>
+		<groupNumber>4</groupNumber>
+		<groupId>4</groupId>
+		<customer>
+			<name>Charter Group</name>
+			<address>
+				<addres>
+					<street>100 Main</street>
+					<city>Framingham</city>
+					<state>MA</state>
+					<zip>01701</zip>
+				</addres>
+				<addres>
+					<street>720 Prospect</street>
+					<state>MA</state>
+					<zip>01701</zip>
+				</addres>
+				<addres>
+					<street>120 Ridge</street>
+					<state>MA</state>
+					<zip>01760</zip>
+					<city>Framingham</city>
+				</addres>
+			</address>
+			<id>
+				<value>1</value>
+			</id>
+		</customer>
+		<customer>
+			<name>Charter Group2</name>
+			<address>
+				<addres>
+					<street>100 Main2</street>
+					<city>Framingham2</city>
+					<state>MA2</state>
+					<zip>017012</zip>
+				</addres>
+				<addres>
+					<street>720 Prospect2</street>
+					<city>Framingham</city>
+					<state>MA</state>
+					<zip>01701</zip>
+				</addres>
+				<addres>
+					<street>120 Ridge2</street>
+					<state>MA</state>
+					<zip>017602</zip>
+					<city/>
+				</addres>
+			</address>
+			<id>
+				<value>2</value>
+			</id>
+		</customer>
+	</customers>
 </Root>
 ```
 
@@ -69,6 +106,11 @@ dotnet run "C:\Users\JohnDoe\Documents\XMLFiles" "C:\Users\JohnDoe\Documents\out
 ```
 Title,groupNumber,groupId,name,street,city,state,zip,value
 secondDoc,4,4,Charter Group,100 Main,Framingham,MA,01701,1
+secondDoc,4,4,Charter Group,720 Prospect,,MA,01701,1
+secondDoc,4,4,Charter Group,120 Ridge,Framingham,MA,01760,1
+secondDoc,4,4,Charter Group2,100 Main2,Framingham2,MA2,017012,2
+secondDoc,4,4,Charter Group2,720 Prospect2,Framingham,MA,01701,2
+secondDoc,4,4,Charter Group2,120 Ridge2,,MA,017602,2
 ```
 
 ### Notes
