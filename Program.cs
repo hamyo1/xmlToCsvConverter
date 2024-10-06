@@ -4,8 +4,8 @@ using System.Xml;
 using System.Xml.Linq;
 
 
-//string input = "C:\\some\\path\\input";
-//string output = "C:\\some\\path\\output";
+string input = "C:\\some\\path\\input";
+string output = "C:\\some\\path\\output";
 
 XmlToCsvConverterExecute(input, output);
 
