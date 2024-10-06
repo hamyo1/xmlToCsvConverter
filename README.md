@@ -15,7 +15,8 @@ This project is a generic XML to CSV converter that transforms any XML files wit
 
 The input XML file should have a structure similar to the following:
 
-```xml
+xml
+```
 <?xml version="1.0"?>
 <Root>
     <Title>secondDoc</Title>
