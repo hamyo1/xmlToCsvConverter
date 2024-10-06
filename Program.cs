@@ -7,9 +7,6 @@ using System.Xml.Linq;
 //string input = "C:\\some\\path\\input";
 //string output = "C:\\some\\path\\output";
 
-string input = "C:\\Users\\haimh\\Downloads\\xmltocsvconverter\\input";
-string output = "C:\\Users\\haimh\\Downloads\\xmltocsvconverter\\output";
-
 XmlToCsvConverterExecute(input, output);
 
 void XmlToCsvConverterExecute(string input_path, string output_path)
